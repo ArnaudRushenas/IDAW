@@ -1,0 +1,19 @@
+body{
+    background-color: orange;
+    font-family: Verdana, sans-serif; 
+    font-size: 100%;
+}
+
+p{
+    color: blue;
+    font-size: 100%;
+}
+
+h1{
+    font-size: 200%; 
+    color: navy; 
+    text-align: center;
+
+p{
+    color:brown
+}
