@@ -1,0 +1,17 @@
+<?php
+require_once('template_header.php');
+?>
+
+<nav class="menu">
+    <ul>
+        <li><a href="index.html">Index</a></li>
+        <li><a href="cv.html">CV</a></li>
+        <li><a href="projets.html">Projets</a></li>
+    </ul>
+</nav>
+<h1>CV</h1>
+<p>Voici ci-dessous mon CV</p>
+<a href="file:///C:/3%20-%20ARNAUD/CV/Arnaud%20Rushenas-%20CV%20(1).pdf">Mon CV</a>
+</body>
+</html>
+
