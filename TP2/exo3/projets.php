@@ -3,43 +3,25 @@ require_once('template_header.php');
 ?>
 
 
+<?php
+require_once('template_menu.php');
+renderMenuToHTML('projets');
+?>
 
+<h1>Projets</h1>
+<p>Seront postés sur cette page mes projets</p>
+<div class="header">Professionnel</div>
+<div class="article">
+    <div class="header">Loisirs</div>
+    <div class="section">1</div>
+    <div class="section">2</div>
+    <div class="footer">3</div>
+</div>
+<div>
+    <div class="aside">Droite</div>
+    <div class="aside">Gauche</div>
+</div>
 
-
-<nav class="menu">
-    <ul>
-    <li><a href="index.html">Index</a></li>
-    <li><a href="cv.html">CV</a></li>
-    <li><a href="projets.html">Projets</a></li>
-    </ul>
-    </nav>
-
-    <!doctype html>
-    <html>
-        <head>
-            <meta charset="utf-8">
-            <link rel="stylesheet" href="style.css" />
-            <title>Projets</title> 
-        </head>
-        <body>
-            <h1>Projets</h1>
-            <p>Seront postés sur cette page mes projets</p>
-        </body>
-    </html>
-
-    <body>
-        <div class="header">...</div>
-        <nav>...</nav>
-        <div class="article">
-            <div class="header">...</div>
-            <div class="section">...</div>
-            <div class="section">...</div>
-            <div class="footer">...</div>
-        </div>
-        <div>
-            <div class="aside">...</div>
-            <div class="aside">...</div>
-        </div>
-        <div class="footer">...</div>
-    </body>
-
+<?php
+require_once('template_footer.php');
+?>   
