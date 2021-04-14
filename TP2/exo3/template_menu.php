@@ -6,7 +6,7 @@ function renderMenuToHTML($currentPageId) {
     
         'ci' => array('Projets')
     );
-
+    
     echo "<nav class=\"menu\"><u1>";
     foreach($mymenu as $pageId => $pageParameters) {
         echo "<li><a ";
